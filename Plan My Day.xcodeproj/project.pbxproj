@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		44486A382CC79B7C00306DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44486A192CC79B7A00306DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44486A202CC79B7A00306DE9;
+			remoteInfo = "Plan My Day";
+		};
+		44486A422CC79B7C00306DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44486A192CC79B7A00306DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44486A202CC79B7A00306DE9;
+			remoteInfo = "Plan My Day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44486A212CC79B7A00306DE9 /* Plan My Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan My Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44486A372CC79B7C00306DE9 /* Plan My DayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plan My DayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44486A412CC79B7C00306DE9 /* Plan My DayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plan My DayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		44486A492CC79B7C00306DE9 /* Exceptions for "Plan My Day" folder in "Plan My Day" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 44486A202CC79B7A00306DE9 /* Plan My Day */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		44486A232CC79B7A00306DE9 /* Plan My Day */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				44486A492CC79B7C00306DE9 /* Exceptions for "Plan My Day" folder in "Plan My Day" target */,
+			);
+			path = "Plan My Day";
+			sourceTree = "<group>";
+		};
+		44486A3A2CC79B7C00306DE9 /* Plan My DayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Plan My DayTests";
+			sourceTree = "<group>";
+		};
+		44486A442CC79B7C00306DE9 /* Plan My DayUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Plan My DayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44486A1E2CC79B7A00306DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44486A342CC79B7C00306DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44486A3E2CC79B7C00306DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44486A182CC79B7A00306DE9 = {
+			isa = PBXGroup;
+			children = (
+				44486A232CC79B7A00306DE9 /* Plan My Day */,
+				44486A3A2CC79B7C00306DE9 /* Plan My DayTests */,
+				44486A442CC79B7C00306DE9 /* Plan My DayUITests */,
+				44486A222CC79B7A00306DE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44486A222CC79B7A00306DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44486A212CC79B7A00306DE9 /* Plan My Day.app */,
+				44486A372CC79B7C00306DE9 /* Plan My DayTests.xctest */,
+				44486A412CC79B7C00306DE9 /* Plan My DayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44486A202CC79B7A00306DE9 /* Plan My Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44486A4A2CC79B7C00306DE9 /* Build configuration list for PBXNativeTarget "Plan My Day" */;
+			buildPhases = (
+				44486A1D2CC79B7A00306DE9 /* Sources */,
+				44486A1E2CC79B7A00306DE9 /* Frameworks */,
+				44486A1F2CC79B7A00306DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				44486A232CC79B7A00306DE9 /* Plan My Day */,
+			);
+			name = "Plan My Day";
+			packageProductDependencies = (
+			);
+			productName = "Plan My Day";
+			productReference = 44486A212CC79B7A00306DE9 /* Plan My Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44486A362CC79B7C00306DE9 /* Plan My DayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44486A4F2CC79B7C00306DE9 /* Build configuration list for PBXNativeTarget "Plan My DayTests" */;
+			buildPhases = (
+				44486A332CC79B7C00306DE9 /* Sources */,
+				44486A342CC79B7C00306DE9 /* Frameworks */,
+				44486A352CC79B7C00306DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44486A392CC79B7C00306DE9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				44486A3A2CC79B7C00306DE9 /* Plan My DayTests */,
+			);
+			name = "Plan My DayTests";
+			packageProductDependencies = (
+			);
+			productName = "Plan My DayTests";
+			productReference = 44486A372CC79B7C00306DE9 /* Plan My DayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44486A402CC79B7C00306DE9 /* Plan My DayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44486A522CC79B7C00306DE9 /* Build configuration list for PBXNativeTarget "Plan My DayUITests" */;
+			buildPhases = (
+				44486A3D2CC79B7C00306DE9 /* Sources */,
+				44486A3E2CC79B7C00306DE9 /* Frameworks */,
+				44486A3F2CC79B7C00306DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44486A432CC79B7C00306DE9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				44486A442CC79B7C00306DE9 /* Plan My DayUITests */,
+			);
+			name = "Plan My DayUITests";
+			packageProductDependencies = (
+			);
+			productName = "Plan My DayUITests";
+			productReference = 44486A412CC79B7C00306DE9 /* Plan My DayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44486A192CC79B7A00306DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					44486A202CC79B7A00306DE9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					44486A362CC79B7C00306DE9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 44486A202CC79B7A00306DE9;
+					};
+					44486A402CC79B7C00306DE9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 44486A202CC79B7A00306DE9;
+					};
+				};
+			};
+			buildConfigurationList = 44486A1C2CC79B7A00306DE9 /* Build configuration list for PBXProject "Plan My Day" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44486A182CC79B7A00306DE9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 44486A222CC79B7A00306DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44486A202CC79B7A00306DE9 /* Plan My Day */,
+				44486A362CC79B7C00306DE9 /* Plan My DayTests */,
+				44486A402CC79B7C00306DE9 /* Plan My DayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44486A1F2CC79B7A00306DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44486A352CC79B7C00306DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44486A3F2CC79B7C00306DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44486A1D2CC79B7A00306DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44486A332CC79B7C00306DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44486A3D2CC79B7C00306DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44486A392CC79B7C00306DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44486A202CC79B7A00306DE9 /* Plan My Day */;
+			targetProxy = 44486A382CC79B7C00306DE9 /* PBXContainerItemProxy */;
+		};
+		44486A432CC79B7C00306DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44486A202CC79B7A00306DE9 /* Plan My Day */;
+			targetProxy = 44486A422CC79B7C00306DE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44486A4B2CC79B7C00306DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG264W4B62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plan My Day/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nisafatima.Plan-My-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44486A4C2CC79B7C00306DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG264W4B62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plan My Day/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nisafatima.Plan-My-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44486A4D2CC79B7C00306DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44486A4E2CC79B7C00306DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44486A502CC79B7C00306DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG264W4B62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nisafatima.Plan-My-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plan My Day.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plan My Day";
+			};
+			name = Debug;
+		};
+		44486A512CC79B7C00306DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG264W4B62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nisafatima.Plan-My-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plan My Day.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plan My Day";
+			};
+			name = Release;
+		};
+		44486A532CC79B7C00306DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG264W4B62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nisafatima.Plan-My-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Plan My Day";
+			};
+			name = Debug;
+		};
+		44486A542CC79B7C00306DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG264W4B62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nisafatima.Plan-My-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Plan My Day";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44486A1C2CC79B7A00306DE9 /* Build configuration list for PBXProject "Plan My Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44486A4D2CC79B7C00306DE9 /* Debug */,
+				44486A4E2CC79B7C00306DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44486A4A2CC79B7C00306DE9 /* Build configuration list for PBXNativeTarget "Plan My Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44486A4B2CC79B7C00306DE9 /* Debug */,
+				44486A4C2CC79B7C00306DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44486A4F2CC79B7C00306DE9 /* Build configuration list for PBXNativeTarget "Plan My DayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44486A502CC79B7C00306DE9 /* Debug */,
+				44486A512CC79B7C00306DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44486A522CC79B7C00306DE9 /* Build configuration list for PBXNativeTarget "Plan My DayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44486A532CC79B7C00306DE9 /* Debug */,
+				44486A542CC79B7C00306DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44486A192CC79B7A00306DE9 /* Project object */;
+}
