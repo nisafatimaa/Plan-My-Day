@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Every task has a time; let’s find yours. (1000 x 1100 px) (960 x 1200 px) (1000 x 1300 px).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Every task has a time; let’s find yours. (1000 x 1100 px) (960 x 1200 px) (1000 x 1300 px)@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Every task has a time; let’s find yours. (1000 x 1100 px) (960 x 1200 px) (1000 x 1300 px)@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
