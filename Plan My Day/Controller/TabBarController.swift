@@ -9,6 +9,7 @@ import UIKit
 
 class TabBarController: UITabBarController {
 
+    
     // MARK: - Properties
     var upperLineView: UIView!
     let spacing: CGFloat = 12
@@ -37,8 +38,8 @@ class TabBarController: UITabBarController {
          }
         
         if !isFirstTime {
-               upperLineView.removeFromSuperview()
-           }
+            upperLineView.removeFromSuperview()
+        }
         
         upperLineView = UIView(frame: CGRect(x: tabView.frame.minX + spacing, y: tabView.frame.minY + 0.1, width: tabView.frame.size.width - spacing * 2, height: CGFloat(4)))
         
