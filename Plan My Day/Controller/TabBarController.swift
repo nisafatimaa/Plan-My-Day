@@ -65,8 +65,8 @@ class TabBarController: UITabBarController {
         centerButton.addTarget(self, action: #selector(centerButtonTapped), for: .touchUpInside)
         
         centerButton.layer.shadowColor = UIColor.purple1.cgColor
-        centerButton.layer.shadowOpacity = 1.0
-        centerButton.layer.shadowRadius = 17
+        centerButton.layer.shadowOpacity = 0.9
+        centerButton.layer.shadowRadius = 12
         
         self.tabBar.addSubview(centerButton)
     }
